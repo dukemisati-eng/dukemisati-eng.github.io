@@ -128,16 +128,18 @@
         <details class="project-card">
           <summary>
             <div class="project-summary">
-              <h3>Channel Performance Dashboard</h3>
-              <p class="project-blurb">A consolidated view of sales-channel performance against targets, replacing scattered daily and weekly report templates.</p>
-              <span class="tag-row"><span class="tag">SQL</span><span class="tag">HTML/JS Dashboard</span><span class="tag">Excel</span></span>
+              <h3>Channel Performance Dashboard APP</h3>
+              <p class="project-blurb">A consolidated view of sales-channel performance against targets from site level up to agent level, replacing scattered daily and weekly report templates.</p>
+              <span class="tag-row"><span class="tag">SQL</span><span class="tag">HTML/JS Dashboard</span><span class="tag">Excel</span><span class="tag">Interactive Charts</span></span>
             </div>
             <span class="expand-icon" aria-hidden="true">+</span>
           </summary>
           <div class="project-body">
-            <p><strong>The problem:</strong> Leadership needed one place to see how each sales channel (Direct, Indirect, Retail) was tracking against target, but the data lived across separate daily and weekly report templates — making it slow to spot underperformance.</p>
-            <p><strong>What I did:</strong> Consolidated the source data with SQL and built an interactive dashboard tracking day-on-day activations, MTD performance by territory, and onboarding progress in a single view.</p>
-            <p><strong>Outcome:</strong> Gave regional and territory leadership a same-day read on performance instead of waiting on manually compiled weekly reports, surfacing underperforming channels sooner.</p>
+            <div class="project-shot"><img src="assets/screenshots/channel-performance.png" alt="Mock-up of the Channel Performance Dashboard app, showing illustrative sample data only" loading="lazy"></div>
+            <p class="shot-note">Screenshot shown with fully synthetic sample data — no real company figures.</p>
+            <p><strong>The problem:</strong> Leadership needed one place to see how each sales channel (Direct, Indirect, Retail) was tracking against target — from the site level all the way up to the individual agent — but the data lived across separate daily and weekly report templates, making it slow to spot underperformance.</p>
+            <p><strong>What I did:</strong> Consolidated the source data with SQL and Excel and built an interactive HTML dashboard app tracking day-on-day activations, MTD performance by territory, and onboarding progress in a single view. Access is password-protected and role-based, so each user only sees the reports within their own scope.</p>
+            <p><strong>Outcome:</strong> Gave regional, territory, zonal, and cluster-level users a same-day read on performance within their own scope instead of waiting on manually compiled weekly reports, surfacing underperforming channels sooner.</p>
           </div>
         </details>
 
@@ -151,8 +153,10 @@
             <span class="expand-icon" aria-hidden="true">+</span>
           </summary>
           <div class="project-body">
+            <div class="project-shot"><img src="assets/screenshots/site-engagement-revenue.png" alt="Mock-up of the Site Engagement vs Revenue dashboard, showing illustrative sample data only" loading="lazy"></div>
+            <p class="shot-note">Screenshot shown with fully synthetic sample data — no real company figures.</p>
             <p><strong>The problem:</strong> When a site's revenue dropped, it wasn't always clear whether the cause was technical (poor network/site engagement) or commercial (pricing, yield). Diagnosing this manually, site by site, was slow.</p>
-            <p><strong>What I did:</strong> Built a dashboard correlating site/cell-tech engagement with revenue change, auto-classifying each site's likely driver and surfacing a prioritized watch-list of sites to act on.</p>
+            <p><strong>What I did:</strong> Built a dashboard correlating site/cell-tech engagement — measured against site activity availability — with revenue change, auto-classifying each site's likely driver and surfacing a prioritized watch-list of sites to act on. Also profiled using area maps and Pareto charts to quickly point out whether a site's effect was commercial or technical.</p>
             <p><strong>Outcome:</strong> Cut the triage time for "why is this site's revenue down" from a manual deep-dive to an instant flag, letting teams focus recovery effort where it mattered most.</p>
           </div>
         </details>
@@ -167,8 +171,10 @@
             <span class="expand-icon" aria-hidden="true">+</span>
           </summary>
           <div class="project-body">
+            <div class="project-shot"><img src="assets/screenshots/revenue-vs-gas.png" alt="Mock-up of the Revenue vs Site GAs dashboard, showing illustrative sample data only" loading="lazy"></div>
+            <p class="shot-note">Screenshot shown with fully synthetic sample data — no real company figures.</p>
             <p><strong>The problem:</strong> Month-end closing reports caught underperformance too late to act on it within the month.</p>
-            <p><strong>What I did:</strong> Built a dashboard comparing month-to-date revenue and gross-adds against the prior same-length period, broken down to site level.</p>
+            <p><strong>What I did:</strong> Built a dashboard comparing month-to-date revenue and gross-adds against the prior same-length period, broken down to site level, with a projection of the closing figure based on pace vs. target, day on day.</p>
             <p><strong>Outcome:</strong> Gave an early, same-period read on trend direction, so teams could course-correct before the month closed instead of after.</p>
           </div>
         </details>
@@ -183,6 +189,8 @@
             <span class="expand-icon" aria-hidden="true">+</span>
           </summary>
           <div class="project-body">
+            <div class="project-shot"><img src="assets/screenshots/channel-mapped-scatter.png" alt="Mock-up scatter plot of channel-mapped performance, showing illustrative sample data only" loading="lazy"></div>
+            <p class="shot-note">Screenshot shown with fully synthetic sample data — no real company figures.</p>
             <p><strong>The problem:</strong> Sales channels are each mapped to a specific territory, but some activations were happening outside a channel's assigned area — diluting attribution and distorting territory planning.</p>
             <p><strong>What I did:</strong> Built a dashboard that flags activations outside a channel's mapped locality, measures how far outside (same zone vs. different region), and reconciles the discrepancy through a territory matrix.</p>
             <p><strong>Outcome:</strong> Gave territory managers a direct way to spot and correct mapping breaches instead of discovering them anecdotally.</p>
@@ -199,6 +207,8 @@
             <span class="expand-icon" aria-hidden="true">+</span>
           </summary>
           <div class="project-body">
+            <div class="project-shot"><img src="assets/screenshots/topup-heatmap.png" alt="Mock-up heat map of top-up activity, showing illustrative sample data only" loading="lazy"></div>
+            <p class="shot-note">Screenshot shown with fully synthetic sample data — no real company figures.</p>
             <p><strong>The problem:</strong> Top-up recharge activity varies heavily by hour, day, and channel, but without a clear view of when and where it concentrates, it's hard to time promotions or spot a channel quietly losing activity.</p>
             <p><strong>What I did:</strong> Built a set of Power BI heat maps and an hourly trend view across recharge channels, comparing activity patterns month-to-date to surface peak and low hours at a glance.</p>
             <p><strong>Outcome:</strong> Gave a fast, visual read on when activity peaks and dips per channel, informing the timing of recovery and promotional actions instead of relying on gut feel.</p>
@@ -221,6 +231,22 @@
           </div>
         </details>
 
+        <details class="project-card">
+          <summary>
+            <div class="project-summary">
+              <h3>Referral Workflow Automation (Power Automate)</h3>
+              <p class="project-blurb">An end-to-end Microsoft 365 workflow automating referral intake, duplicate checks, expiry, and conversion tracking for a field sales program.</p>
+              <span class="tag-row"><span class="tag">Power Automate</span><span class="tag">SharePoint Lists</span><span class="tag">Microsoft Forms</span><span class="tag">Microsoft Teams</span></span>
+            </div>
+            <span class="expand-icon" aria-hidden="true">+</span>
+          </summary>
+          <div class="project-body">
+            <p><strong>The problem:</strong> Field agents submitted referrals manually, with no consistent way to catch duplicate submissions, track how long a referral had been open, confirm when it converted into a sale, or notify the right shop manager — all of which took manual follow-up.</p>
+            <p><strong>What I did:</strong> Designed and built the end-to-end flow on Microsoft 365: agents submit through a Microsoft Form, which lands in a SharePoint-based Referral Registry linked to a Shop Master List and Agent Registry. Power Automate flows handle the logic — flagging duplicate submissions by matching customer phone number within a 7-day active window, auto-expiring unconverted referrals on a calendar-day timer, matching conversions back to the original referral by phone and shop, and routing notifications to the right people in a dedicated Teams channel, tagged per shop manager. Access is role-based: admins and reporting see everything, shop managers see only their own shop, and agents only interact through the form, with no list access and no edits once a referral is submitted.</p>
+            <p><strong>Outcome:</strong> Replaced a manual, error-prone referral process with a self-service flow that catches duplicates and expiries automatically and routes the right notification to the right person — freeing up time previously spent on manual tracking and follow-up.</p>
+          </div>
+        </details>
+
       </div>
     </div>
   </section>
@@ -236,6 +262,7 @@
         <span class="tool">Tableau</span>
         <span class="tool">Metabase</span>
         <span class="tool">Power Automate</span>
+        <span class="tool">SharePoint</span>
         <span class="tool">n8n</span>
         <span class="tool">HTML/JS</span>
       </div>
